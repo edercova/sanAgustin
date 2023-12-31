@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+/* Nav */
+nav {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  background: #8a52fe;
+}
+nav img {
+  width: 80px;
+  margin-right: 1.5rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: Rubik Doodle Shadow;
+  font-size: 2rem;
+  height: 100%;
+  margin: 0 1rem;
+  color: beige;
+}
+nav ul li a:hover {
+  color: black;
+}
+@media (max-width: 1001px) {
+  nav ul li a {
+    text-decoration: none;
+    font-family: Rubik Doodle Shadow;
+    font-size: 1.5rem;
+    height: 100%;
+    margin: 0 1rem;
+    color: beige;
+  }
+}
+@media (max-width: 815px) {
+  nav ul li a {
+    text-decoration: none;
+    font-family: Rubik Doodle Shadow;
+    font-size: 1.5rem;
+    height: 100%;
+    margin: 0 0.7rem;
+    color: beige;
+  }
+}
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+}
+.principal-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+main .hero {
+  width: 75%;
+}
+.articles {
+  margin: 3rem 16.5rem;
+  /* background: rgb(120, 91, 122); */
+}
+.articles p {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.articles h2 {
+  font-weight: bold;
+}
+/* Siguenos en instagram */
+.text {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+/* Footer */
+
+footer h2 {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+footer h3 {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+/* Social networks */
+.social-networks {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: rgba(10, 10, 170, 0.527);
+  justify-content: center;
+  align-items: center;
+}
+
+.social-networks .icons-social-networks ul {
+  display: flex;
+  list-style: none;
+}
+.social-networks .icons-social-networks ul li a {
+  margin: 0 10px;
+}
+.social-networks svg {
+  width: 4 rem;
+  height: 4 rem;
+  color: black;
+}
+.siguenos {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact svg {
+  margin: 0 0 0.5rem 2rem;
+}
+.contact p {
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.adress {
+  display: flex;
+}
+.adress svg {
+  width: 30px;
+  height: 30px;
+}
+.adress p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: justify;
+}
+svg {
+  width: 30px;
+  height: 30px;
+}
+
+.all-rights-reserved {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  text-align: center;
+}
+.sigue {
+  margin-left: 10px;
+}
+/* sanAgustin Html */
+.principal-container-2 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.principal-container-2 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* Inscripciones Html */
+.principal-container-3 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.principal-container-3 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* Formacion Html */
+.principal-container-4 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.principal-container-4 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* Noticias Html */
+.principal-container-5 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.principal-container-5 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* Descargas Html */
+.principal-container-6 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.principal-container-6 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* Contacto Html */
+.principal-container-7 {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+.principal-container-7 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
