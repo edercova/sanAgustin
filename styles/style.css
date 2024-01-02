@@ -59,18 +59,62 @@ nav ul li a:hover {
   }
 }
 /* Main */
-main {
+/* main {
   display: flex;
   justify-content: center;
-}
+} */
 .principal-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 15px;
 }
+.carousel-inner img {
+  height: 50rem;
+  width: 40rem;
+}
+/* sangria */
+.sangria {
+  padding-left: 5rem;
+}
+/*  */
+
 main .hero {
-  width: 75%;
+  width: 50%;
+}
+@media (max-width: 1050px) {
+  .carousel-inner img {
+    height: 75%;
+    width: 75%;
+  }
+}
+.one,
+.two,
+.three,
+.four {
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  font-style: italic;
+}
+.five {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+  font-style: italic;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
 }
 .articles {
   margin: 3rem 16.5rem;
@@ -174,6 +218,10 @@ svg {
   margin-left: 10px;
 }
 /* sanAgustin Html */
+main {
+  display: flex;
+  justify-content: center;
+}
 .principal-container-2 {
   display: flex;
   font-size: 4rem;
@@ -186,6 +234,7 @@ svg {
   font-size: 3rem;
   font-weight: bold;
 }
+
 /* Inscripciones Html */
 .principal-container-3 {
   display: flex;

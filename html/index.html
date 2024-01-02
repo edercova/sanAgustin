@@ -29,8 +29,9 @@
     <header>
         <!-- Nav -->
         <nav>
+
             <!-- Logo -->
-            <a href="#"><img src="/images/sanagustin.png" alt="logo" class="logo"></a>
+            <a href="/html/index.html"><img src="/images/sanagustin.png" alt="logo" class="logo"></a>
             <ul>
                 <!-- Enlaces -->
                 <li><a href="/html/index.html">Inicio</a></li>
@@ -48,10 +49,10 @@
 
     </header>
     <main>
-        <div class="principal-container">
+        <div class="principal-container container-fluid">
             <!-- Hero -->
             <section class="hero">
-                <div id="carouselExampleCaptions" class="carousel slide">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,27 +60,46 @@
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="7000">
                             <img src="/images/uecsa.jpg" class="d-block w-100" alt="uecsa">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
+                                <h5>1</h5>
+                                <p class="one">Tu segundo hogar</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="7000">
                             <img src="/images/uecsa2.jpg" class="d-block w-100" alt="uecsa2">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
+                                <h5>2</h5>
+                                <p class="two">Donde tus hijos se divierten</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="7000">
                             <img src="/images/uecsa3.jpg" class="d-block w-100" alt="uecsa3">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
+                                <h5>3</h5>
+                                <p class="three">Contamos con personal altamente calificado para la eduación de tus
+                                    hijos</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="7000">
+                            <img src="/images/uecsa4.jpg" class="d-block w-100" alt="uecsa4">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>4</h5>
+                                <p class="four">Deporte de alta calidad y excelencia</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="7000">
+                            <img src="/images/uecsa5.jpg" class="d-block w-100" alt="uecsa5">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>5</h5>
+                                <p class="five">Inscripciones abiertas</p>
                             </div>
                         </div>
 
@@ -103,7 +123,8 @@
                     <h2>Historia del San Agustín</h2>
                     <p>
 
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quam, commodi
+                        <span class="sangria">Lorem,</span> ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                        quam, commodi
                         cum
                         assumenda
                         asperiores officia repudiandae enim! Tempore voluptatem molestiae quisquam ab explicabo
@@ -137,13 +158,14 @@
                     </p>
                 </article>
             </section>
+
         </div>
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus sed, quas incidunt aliquid hic
-            quae voluptatem saepe minima quo, molestiae labore quos dolor? Culpa illo nostrum architecto enim animi!
-        </p> -->
+
 
     </main>
+
     <footer>
+
         <div class="text">
             <h2>Siguenos en Instagram</h2>
             <h3>@colegiosanagustinpzo</h3>
